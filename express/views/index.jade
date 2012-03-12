@@ -1,2 +1,6 @@
 h1= title
 p Welcome to #{title}
+
+form(action='/post', method='post')
+  input(type='text',name='data')
+  button(type='submit') submit
